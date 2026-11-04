@@ -8,3 +8,6 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+- Official social links live only in src/config/links.ts; components import from there so a link change is one edit.
+- Roster/staff/achievement data lives in src/data/teams.ts, PC and Console kept separate, ready to swap for a database.
